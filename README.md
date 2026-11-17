@@ -6,9 +6,21 @@ Use `virginia-mutcd` to review Virginia traffic-control questions and plans agai
 
 The repository is public and available to clone or download from GitHub. If `virginia-mutcd` already appears in your skill picker, go to [Use the skill](#use-the-skill).
 
+### Install from a ZIP
+
+1. [Download the ZIP](https://github.com/f244cmdh9k-svg/virginia-mutcd/archive/refs/heads/main.zip) and extract it.
+2. Rename the extracted `virginia-mutcd-main` folder to `virginia-mutcd`. Move it to your personal Codex skills folder. Create the parent folder if needed.
+   - Windows destination is `%USERPROFILE%\.agents\skills\virginia-mutcd`.
+   - macOS and Linux destination is `~/.agents/skills/virginia-mutcd`.
+   - For a single project, use `.agents/skills/virginia-mutcd` inside that project's root.
+3. Check that `SKILL.md`, `references/`, and `resources/` sit directly inside `virginia-mutcd`.
+4. In Codex, select `$virginia-mutcd` and add your request. Restart Codex if the skill doesn't appear. [Codex local skill locations and discovery](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills).
+
+### Install with Git
+
 Clone the full repository into your personal skills directory so the workflows and source locator are available in every local project.
 
-### Windows PowerShell
+#### Windows PowerShell
 
 ```powershell
 $skills = Join-Path $env:USERPROFILE '.agents/skills'
@@ -16,14 +28,12 @@ New-Item -ItemType Directory -Force -Path $skills | Out-Null
 git clone --branch main https://github.com/f244cmdh9k-svg/virginia-mutcd.git (Join-Path $skills 'virginia-mutcd')
 ```
 
-### macOS or Linux
+#### macOS or Linux
 
 ```sh
 mkdir -p "$HOME/.agents/skills"
 git clone --branch main https://github.com/f244cmdh9k-svg/virginia-mutcd.git "$HOME/.agents/skills/virginia-mutcd"
 ```
-
-You can also use **Code → Download ZIP** in GitHub, extract the archive, and place the extracted folder in your personal skills directory as `virginia-mutcd`. For a single project, put the extracted folder at `.agents/skills/virginia-mutcd` in that project's root. Confirm that `SKILL.md`, `references/`, and `resources/` are directly inside the installed folder. Restart Codex if the skill doesn't appear. [Codex local skill locations and discovery](https://learn.chatgpt.com/docs/build-skills#where-codex-loads-local-skills).
 
 ## Use the skill
 
