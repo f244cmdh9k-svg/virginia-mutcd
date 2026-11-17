@@ -1,0 +1,45 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\authority.md": "408111c6edb6bac1da3df1dc21fa18fb3fecce6e95cc2d179bef4cd96fdd70ab",
+    "references\\capabilities\\automation.md": "a012c5d5e2aeea255b6f9b2fc96ddc7d3a18f551e19ecd99be7da523abb34686",
+    "references\\capabilities\\bicycle-facility.md": "fa8247d0b4bdf57ed6215bcdcdb6e41baa1a79d44fbb9428a63988997e6fa799",
+    "references\\capabilities\\curve-warning.md": "ac0293a067c3eecd3e57774f105704092cbabf208c11e54a8c7f133a91c7c4b0",
+    "references\\capabilities\\grade-crossing.md": "a4986f17ccb354d6b49a78a679353f6629fc3720fcf8bb6fbc7fdc67f0250e17",
+    "references\\capabilities\\lane-reduction.md": "a97e0c62fc44a96a17c8591183b923314cc50dde297cca3a436aac95f49ce920",
+    "references\\capabilities\\marking-review.md": "1ffbd8f301c8ffbe0319e01f4864d201ac2afbd3ccea421179898ee8e147e6c4",
+    "references\\capabilities\\official-requests.md": "e7361b698219664d1a9ec69d14d73dde661634660890bca2d4d8e8ca233a1a21",
+    "references\\capabilities\\pedestrian-crossing.md": "a8ece0480244498401ec7360960be31970d34eeb6e4ce8cf71624ecf22bdf9e3",
+    "references\\capabilities\\school-area.md": "bb78d2d004911dd40937e7ee004c9dad5039a028810fa592c9d061ac88be263a",
+    "references\\capabilities\\sign-review.md": "b3c41be78b111e218fd0e6823296af12b20ffa56c0f6e223c1461e2015bd72c3",
+    "references\\capabilities\\signal-design.md": "4705766855e6a3cd3f65fba15d812d6219b5d4393ffe9ad7697cf0c68717b37a",
+    "references\\capabilities\\signal-warrants.md": "d871ec48a6584bd6d63e53289a629ea1b25ebf590dd2357b04da5c6adf4e764b",
+    "references\\capabilities\\work-zone.md": "2baea6b0706ff0a05cb8de9f5ee48420440f0444bb8e86da99ebcb9c8cd0742a",
+    "references\\capability-index.md": "630e7f2ee3c9b445a6de8af7a9bce42fab2cea9074efd5108b092281adf259a9",
+    "references\\cheatsheet.md": "cddd2ca0802c9a3e5f3fba4b06cf345bec4b61831b9d64502a66a8a4d1c5cb6d",
+    "references\\glossary.md": "60e6ad24e6154877d96ac649dcd23affc095fd276fdb5464d89b7685f69522ec",
+    "references\\overview.md": "d908350effcc7a6079a811ffc49fc44d9211ffc9305332c62568f22e5120c095",
+    "resources\\source-locator.md": "00c747a1dfab4aa9feb7a65bb2011a04043837c77f4933c80a0955612a0b9467",
+    "SKILL.md": "ab6a2a6122e259b24fcf1d041d2dc19303dcfc7342e686f86ddaca188ce0ea33"
+  },
+  "note": "Compare published hashes before rebuilding. Preserve local edits until they are reviewed.",
+  "bundle_id": "bundle.virginia-mutcd-v11",
+  "bundle_sha256": "eca2f95a8f884ea12c803772ce774b5285ad20e73eb3bf1919219d0d75f0fac0",
+  "variant": "single",
+  "run_id": "run-20261117-103301-67d92a",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 8,
+    "promoted_count": 0,
+    "capability_count": 14,
+    "reasons": [
+      "Selected single for this release."
+    ],
+    "alternative": "A compact pack with one source entry and 0 promoted entries.",
+    "user_confirmed": false,
+    "preserve_strategy_on_update": true
+  }
+}
