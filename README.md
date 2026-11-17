@@ -4,7 +4,7 @@ Use `virginia-mutcd` to review Virginia traffic-control questions and plans agai
 
 ## Add to Codex
 
-This is a private GitHub repository. Use a GitHub account with access to `f244cmdh9k-svg/virginia-mutcd`. If `virginia-mutcd` already appears in your skill picker, go to [Use the skill](#use-the-skill).
+The repository is public and available to clone or download from GitHub. If `virginia-mutcd` already appears in your skill picker, go to [Use the skill](#use-the-skill).
 
 Clone the full repository into your personal skills directory so the workflows and source locator are available in every local project.
 
