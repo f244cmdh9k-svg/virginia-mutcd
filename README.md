@@ -1,6 +1,25 @@
 # Virginia MUTCD v11.0 Codex Skill
 
-Use `virginia-mutcd` to review Virginia traffic-control questions and plans against the January 2026 Virginia MUTCD. The skill covers fourteen workflows, including source applicability, signing and markings, signal warrants, school areas, grade crossings, bicycle facilities, and work-zone manual selection.
+Use `virginia-mutcd` to review Virginia traffic-control questions and plans against the January 2026 Virginia MUTCD.
+
+## Skillset
+
+| Workflow | What it helps you do |
+| --- | --- |
+| [Authority and applicability](references/capabilities/authority.md) | Identify the governing authority and edition, and interpret standards, guidance, options, and support. |
+| [Official MUTCD requests](references/capabilities/official-requests.md) | Choose a path for an official interpretation, experimentation, a rule change, or interim approval. |
+| [Permanent signs](references/capabilities/sign-review.md) | Check sign selection, sizing, placement, and maintenance. |
+| [Horizontal-curve warnings](references/capabilities/curve-warning.md) | Evaluate advisory-speed evidence and screen warning devices using Table 2C-4. |
+| [Pavement markings](references/capabilities/marking-review.md) | Review center lines, edge lines, no-passing zones, and retroreflectivity maintenance. |
+| [Permanent lane-reduction tapers](references/capabilities/lane-reduction.md) | Calculate a taper from the applicable speed and offset, and identify related markings. |
+| [Pedestrian crossings](references/capabilities/pedestrian-crossing.md) | Screen uncontrolled crossings and evaluate candidate beacons and other treatments. |
+| [Traffic signal warrants](references/capabilities/signal-warrants.md) | Check applicable warrants and identify the evidence needed to justify a new signal. |
+| [Signal design and operations](references/capabilities/signal-design.md) | Review signal faces, phasing, timing, detection, and accessibility. |
+| [Driving automation](references/capabilities/automation.md) | Review traffic-control device uniformity, visibility, and serviceability. |
+| [Work zones](references/capabilities/work-zone.md) | Identify the governing temporary traffic control manual for the project. |
+| [School areas](references/capabilities/school-area.md) | Review walking routes, school crossings, signs, and speed zones. |
+| [Rail and light rail crossings](references/capabilities/grade-crossing.md) | Prepare a diagnostic review of track clearance, storage, and signal preemption. |
+| [Bicycle facilities](references/capabilities/bicycle-facility.md) | Review signs, markings, turn-lane conflicts, shared-use path crossings, and detection. |
 
 ## Add to Codex
 
@@ -8,8 +27,8 @@ The repository is public and available to clone or download from GitHub. If `vir
 
 ### Install from a ZIP
 
-1. [Download the ZIP](https://github.com/f244cmdh9k-svg/virginia-mutcd/archive/refs/heads/main.zip) and extract it.
-2. Rename the extracted `virginia-mutcd-main` folder to `virginia-mutcd`. Move it to your personal Codex skills folder. Create the parent folder if needed.
+1. Download and extract the ZIP. Use [Source code (zip) from the latest release](https://github.com/f244cmdh9k-svg/virginia-mutcd/releases/latest) for a fixed version, or [download the current main branch](https://github.com/f244cmdh9k-svg/virginia-mutcd/archive/refs/heads/main.zip).
+2. Rename the extracted folder to `virginia-mutcd`. Move it to your personal Codex skills folder. Create the parent folder if needed.
    - Windows destination is `%USERPROFILE%\.agents\skills\virginia-mutcd`.
    - macOS and Linux destination is `~/.agents/skills/virginia-mutcd`.
    - For a single project, use `.agents/skills/virginia-mutcd` inside that project's root.
